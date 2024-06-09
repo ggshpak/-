@@ -4,7 +4,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
-API_TOKEN = "6536490824:AAHEiK-rF90tM7LCmLZfHIYrOzjvSifCHz8"
+API_TOKEN = "TOKEN"
 data_file = "marathon_registrations.txt"
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot, storage=MemoryStorage())
